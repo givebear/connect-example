@@ -1,0 +1,25 @@
+{
+  "name": "givebear-connect-example",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Official example app for the Givebear Connect API: OAuth, read API, and live webhooks.",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --port 4000",
+    "build": "next build",
+    "start": "next start --port 4000",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@givebear/connect": "^0.1.0",
+    "next": "^16.2.9",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.2.16",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3"
+  }
+}
